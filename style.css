@@ -1,0 +1,90 @@
+body{
+    margin: 0px; 
+    
+   }
+   section{display: flex;
+   }
+   .nav{
+           background-color: blanchedalmond;
+           text-align: center;
+           }
+           .nav a{
+               list-style-type: none;
+               display: inline-block;
+               font-size: 20px;
+               font-weight: 600;
+               /* background-color: blueviolet; */
+               padding: 5px;
+               margin: 20px;
+               text-decoration: none;
+               color: #DB9A64;
+                   }
+   
+           .nav a:hover{
+               background-color: cadetblue;
+               border-radius: 20px;
+           }
+   
+   h1{
+       font-family: 'Poppins', sans-serif;
+       font-weight: 591;
+       font-size: 45px;
+   }
+   span{
+   color: orange;
+   }
+   h2{
+       font-weight: 605;
+       font-size: 20px;
+   }
+   p{
+       font-size: 18px;
+       color: dimgray;
+   }
+   .link-button{
+       text-decoration: none;
+       background: linear-gradient(45deg, lightsalmon, tomato);
+       padding: 10px 40px;
+       border-radius: 5px;
+       color: white;
+       font-weight: 700;
+   }
+   .half-width{
+       width: 40%;
+       padding-top: 2%;
+       padding-bottom: 8%;
+       padding-right: 8%;
+       padding-left: 5%;
+       background-color: blanchedalmond;
+   }
+   .half-width img{
+       width: 98%;
+   }
+   .Top-Background{
+       background-image: url(/images/top-banner.png);
+       background-repeat: no-repeat;
+   }
+   .Dream-Big{
+       background-image: url(/images/dream-bg.png);
+       background-position: right;
+       background-repeat: no-repeat;
+   }
+   .box-shadow{
+       box-shadow: 25px 2px 40px rgb(72, 83, 83);
+       width: 60%;
+       margin-left: 5%;
+       margin-right: 5%;
+   }
+       #Full-Stack{
+           border: 7px solid;
+           border-image: linear-gradient(180deg, lightsalmon, tomato);
+           border-image-slice: 1;
+       }
+       #Baby-Web{
+           border: 7px solid;
+           border-image: linear-gradient(180deg, blue, cyan);
+           border-image-slice: 1;
+       }
+   footer p{
+       text-align: center;
+   }
